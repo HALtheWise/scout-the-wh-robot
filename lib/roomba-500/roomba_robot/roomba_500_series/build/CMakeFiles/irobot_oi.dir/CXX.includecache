@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/roomba_500_series/OpenInterface.h
+cereal_port/CerealPort.h
+../include/roomba_500_series/cereal_port/CerealPort.h
+
+/home/eric/catkin_ws/src/scout-the-wh-robot/lib/roomba-500/roomba_robot/roomba_500_series/src/iRobot/OpenInterface.cpp
+stdlib.h
+-
+string.h
+-
+math.h
+-
+stdio.h
+-
+string
+-
+netinet/in.h
+-
+sys/types.h
+-
+roomba_500_series/OpenInterface.h
+/home/eric/catkin_ws/src/scout-the-wh-robot/lib/roomba-500/roomba_robot/roomba_500_series/src/iRobot/roomba_500_series/OpenInterface.h
+
+/home/eric/catkin_ws/src/scout-the-wh-robot/lib/roomba-500/serial_communication/cereal_port/include/cereal_port/CerealPort.h
+stdexcept
+-
+termios.h
+-
+string
+-
+vector
+-
+stdint.h
+-
+boost/function.hpp
+-
+boost/thread/thread.hpp
+-
+

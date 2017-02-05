@@ -85,7 +85,7 @@ irobot::OpenInterface::~OpenInterface()
 // Open the serial port
 int irobot::OpenInterface::openSerialPort(bool full_control)
 {
-	try{ serial_port_->open(port_name_.c_str(), 115200); }
+	try{ serial_port_->open(port_name_.c_str(), 19200); }
 	catch(cereal::Exception& e){ return(-1); }
 
 	this->startOI(full_control);

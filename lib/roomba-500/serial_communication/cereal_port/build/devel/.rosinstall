@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/eric/catkin_ws/src/scout-the-wh-robot/lib/roomba-500/serial_communication/cereal_port/build/devel/setup.sh

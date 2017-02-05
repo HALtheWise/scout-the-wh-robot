@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../msg_gen"
+  "../msg_gen"
+  "../src/roomba_500_series/msg"
+  "CMakeFiles/ROSBUILD_genmsg_cpp"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockAction.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockGoal.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockActionGoal.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockResult.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockActionResult.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockFeedback.h"
+  "../msg_gen/cpp/include/roomba_500_series/GoDockActionFeedback.h"
+  "../msg_gen/cpp/include/roomba_500_series/ScheduleLeds.h"
+  "../msg_gen/cpp/include/roomba_500_series/Bumper.h"
+  "../msg_gen/cpp/include/roomba_500_series/Battery.h"
+  "../msg_gen/cpp/include/roomba_500_series/Song.h"
+  "../msg_gen/cpp/include/roomba_500_series/Diagnostic.h"
+  "../msg_gen/cpp/include/roomba_500_series/RoombaSwitch.h"
+  "../msg_gen/cpp/include/roomba_500_series/Note.h"
+  "../msg_gen/cpp/include/roomba_500_series/DigitLeds.h"
+  "../msg_gen/cpp/include/roomba_500_series/PlaySong.h"
+  "../msg_gen/cpp/include/roomba_500_series/RoombaIR.h"
+  "../msg_gen/cpp/include/roomba_500_series/Leds.h"
+  "../msg_gen/cpp/include/roomba_500_series/IRCharacter.h"
+  "../msg_gen/cpp/include/roomba_500_series/Buttons.h"
+  "../msg_gen/cpp/include/roomba_500_series/Brushes.h"
+  "../msg_gen/cpp/include/roomba_500_series/WheelDrop.h"
+  "../msg/GoDockAction.msg"
+  "../msg/GoDockGoal.msg"
+  "../msg/GoDockActionGoal.msg"
+  "../msg/GoDockResult.msg"
+  "../msg/GoDockActionResult.msg"
+  "../msg/GoDockFeedback.msg"
+  "../msg/GoDockActionFeedback.msg"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ROSBUILD_genmsg_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
